@@ -8,10 +8,12 @@ author: Nickomang
 # How Kubernetes works - Learn | Microsoft Docs
 
 > ## Excerpt
+
 > Learn about the Kubernetes cluster configuration and the services that make up a Kubernetes cluster.
 
 ---
--   13 minutes
+
+- 13 minutes
 
 A successfully configured Kubernetes installation depends on a solid understanding of the Kubernetes system architecture. Here, you'll look at all the components that make up a Kubernetes installation.
 
@@ -57,11 +59,11 @@ Kubernetes relies on several administrative services running on the control plan
 
 The following services make up the control plane for a Kubernetes cluster:
 
--   API server
--   Backing store
--   Scheduler
--   Controller manager
--   Cloud controller manager
+- API server
+- Backing store
+- Scheduler
+- Controller manager
+- Cloud controller manager
 
 ### What is the API server?
 
@@ -109,9 +111,9 @@ There are several services that run on a Kubernetes node to control how workload
 
 The following services run on the Kubernetes node:
 
--   Kubelet
--   Kube-proxy
--   Container runtime
+- Kubelet
+- Kube-proxy
+- Container runtime
 
 ### What is the kubelet?
 
@@ -137,9 +139,9 @@ Kubernetes provides a command-line tool called `kubectl` to manage your cluster.
 
 `kubectl` uses a configuration file that includes the following configuration information:
 
--   **Cluster** configuration specifies a cluster name, certificate information, and the service API endpoint associated with the cluster. This definition enables you to connect from a single workstation to multiple clusters.
--   **User** configuration specifies the users and their permission levels when they're accessing the configured clusters.
--   **Context** configuration groups clusters and users by using a friendly name. For example, you might have a "dev-cluster" and a "prod-cluster" to identify your development and production clusters.
+- **Cluster** configuration specifies a cluster name, certificate information, and the service API endpoint associated with the cluster. This definition enables you to connect from a single workstation to multiple clusters.
+- **User** configuration specifies the users and their permission levels when they're accessing the configured clusters.
+- **Context** configuration groups clusters and users by using a friendly name. For example, you might have a "dev-cluster" and a "prod-cluster" to identify your development and production clusters.
 
 You can configure `kubectl` to connect to multiple clusters by providing the correct context as part of the command-line syntax.
 

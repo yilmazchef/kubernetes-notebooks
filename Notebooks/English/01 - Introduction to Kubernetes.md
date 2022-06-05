@@ -8,10 +8,12 @@ author: Nickomang
 # Introduction to Kubernetes - Learn | Microsoft Docs
 
 > ## Excerpt
+
 > Introduction
 
 ---
--   2 minutes
+
+- 2 minutes
 
 Containers are an excellent choice when developing software based on microservice architectures. They make efficient use of hardware, provide security features to run multiple instances simultaneously on the same host without affecting each other, and enable a service to be scaled out by deploying more instances.
 
@@ -19,9 +21,9 @@ Containers are an excellent choice when developing software based on microservic
 
 The standard container management runtime focuses on managing individual containers. If you want to scale a complex system with multiple containers working together, this scenario becomes challenging. Consider the following aspects you'll have to address:
 
--   Configuring and maintaining load balancing.
--   Network connectivity.
--   Orchestrating the deployment process.
+- Configuring and maintaining load balancing.
+- Network connectivity.
+- Orchestrating the deployment process.
 
 To make the management process easier, it's common to use a **container management platform**, such as **Kubernetes**.
 
@@ -31,12 +33,12 @@ Suppose you work at a drone management company. Your company provides a drone tr
 
 The solution is built and deployed as microservices, and includes several major applications:
 
--   Web front-end: Shows maps and information about tracked drones.
--   Cache service: Stores frequently requested information shown on the website.
--   RESTful API: Used by tracked drones to send data about their status, such as a GPS location and battery charge levels.
--   Queue: Holds unprocessed data collected by the RESTful API.
--   Data processing service: Fetches and processes data from the queue.
--   NoSQL database: Stores processed tracking data and user information captured from the website and the data processing service.
+- Web front-end: Shows maps and information about tracked drones.
+- Cache service: Stores frequently requested information shown on the website.
+- RESTful API: Used by tracked drones to send data about their status, such as a GPS location and battery charge levels.
+- Queue: Holds unprocessed data collected by the RESTful API.
+- Data processing service: Fetches and processes data from the queue.
+- NoSQL database: Stores processed tracking data and user information captured from the website and the data processing service.
 
 You're using containerized instances to quickly deploy into new customer regions, and scale resources as needed to meet customer demands. To simplify the development, deployment, and management of these complex containerized applications, you want to use a container orchestration platform.
 
@@ -44,14 +46,14 @@ You're using containerized instances to quickly deploy into new customer regions
 
 In this module, you will:
 
--   Describe how Kubernetes supports container orchestration.
--   Describe the difference between control planes and nodes.
--   Evaluate whether Kubernetes is an appropriate orchestration platform for a given workload.
+- Describe how Kubernetes supports container orchestration.
+- Describe the difference between control planes and nodes.
+- Evaluate whether Kubernetes is an appropriate orchestration platform for a given workload.
 
 ## Prerequisites
 
--   Basic concepts of microservice architectures.
--   Basic understanding of how Docker containers work.
--   Basic knowledge of how to install software by using a command-line interface (CLI).
+- Basic concepts of microservice architectures.
+- Basic understanding of how Docker containers work.
+- Basic knowledge of how to install software by using a command-line interface (CLI).
 
 Need help? See our [troubleshooting guide](https://docs.microsoft.com/en-us/learn/support/troubleshooting?uid=learn.intro-to-kubernetes.introduction&documentId=a8c90f5b-3790-d424-bd13-b281699beaa8&versionIndependentDocumentId=757bf1fd-1ce7-eb1b-2378-2e4d99c59d20&contentPath=%2FMicrosoftDocs%2Flearn-pr%2Fblob%2Flive%2Flearn-pr%2Fazure%2Fintro-to-kubernetes%2F1-introduction.yml&url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Flearn%2Fmodules%2Fintro-to-kubernetes%2F1-introduction&author=nickoman) or provide specific feedback by [reporting an issue](https://docs.microsoft.com/en-us/learn/support/troubleshooting?uid=learn.intro-to-kubernetes.introduction&documentId=a8c90f5b-3790-d424-bd13-b281699beaa8&versionIndependentDocumentId=757bf1fd-1ce7-eb1b-2378-2e4d99c59d20&contentPath=%2FMicrosoftDocs%2Flearn-pr%2Fblob%2Flive%2Flearn-pr%2Fazure%2Fintro-to-kubernetes%2F1-introduction.yml&url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Flearn%2Fmodules%2Fintro-to-kubernetes%2F1-introduction&author=nickoman#report-feedback).

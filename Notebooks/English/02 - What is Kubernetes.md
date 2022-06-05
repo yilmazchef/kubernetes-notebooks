@@ -8,10 +8,12 @@ author: Nickomang
 # What is Kubernetes? - Learn | Microsoft Docs
 
 > ## Excerpt
+
 > What is Kubernetes?
 
 ---
--   7 minutes
+
+- 7 minutes
 
 The decoupled design of microservices combined with the atomicity of containers make it possible to scale out apps, and respond to increased demand by deploying more container instances, and to scale back if demand is decreasing. In complex solutions, like the drone tracking app, the process of deploying, updating, monitoring, and removing containers introduces challenges.
 
@@ -51,18 +53,17 @@ The benefits of using Kubernetes are based on the abstraction of tasks.
 
 These tasks include:
 
--   Self-healing of containers. An example would be restarting containers that fail or replacing containers.
-    
--   Scaling deployed container count up or down dynamically, based on demand.
-    
--   Automating rolling updates and rollbacks of containers.
-    
--   Managing storage.
-    
--   Managing network traffic.
-    
--   Storing and managing sensitive information, such as usernames and passwords.
-    
+- Self-healing of containers. An example would be restarting containers that fail or replacing containers.
+
+- Scaling deployed container count up or down dynamically, based on demand.
+
+- Automating rolling updates and rollbacks of containers.
+
+- Managing storage.
+
+- Managing network traffic.
+
+- Storing and managing sensitive information, such as usernames and passwords.
 
 Important
 
@@ -76,16 +77,15 @@ With Kubernetes, you can view your datacenter as one large compute resource. You
 
 However, it's important to understand that Kubernetes isn't a single installed app that comes with all possible components needed to manage and orchestrate a containerized solution:
 
--   Aspects such as deployment, scaling, load balancing, logging, and monitoring are all optional. You're responsible for finding the best solution that fits your needs to address these aspects.
-    
--   Kubernetes doesn't limit the types of apps that can run on the platform. If your app can run in a container, it can run on Kubernetes. To make optimal use of containerized solutions, your developers need to understand concepts, such as microservices architecture.
-    
--   Kubernetes doesn't provide middleware, data-processing frameworks, databases, caches, or cluster storage systems. All these items are run as containers, or as part of another service offering.
-    
--   For Kubernetes to run containers, it needs a container runtime, like Docker. The container runtime is the object that's responsible for managing containers. For example, the container runtime starts, stops, and reports on the container's status.
-    
--   You're responsible for maintaining your Kubernetes environment. For example, you need to manage OS upgrades and the Kubernetes installation and upgrades. You also manage the hardware configuration of the host machines, such as networking, memory, and storage.
-    
+- Aspects such as deployment, scaling, load balancing, logging, and monitoring are all optional. You're responsible for finding the best solution that fits your needs to address these aspects.
+
+- Kubernetes doesn't limit the types of apps that can run on the platform. If your app can run in a container, it can run on Kubernetes. To make optimal use of containerized solutions, your developers need to understand concepts, such as microservices architecture.
+
+- Kubernetes doesn't provide middleware, data-processing frameworks, databases, caches, or cluster storage systems. All these items are run as containers, or as part of another service offering.
+
+- For Kubernetes to run containers, it needs a container runtime, like Docker. The container runtime is the object that's responsible for managing containers. For example, the container runtime starts, stops, and reports on the container's status.
+
+- You're responsible for maintaining your Kubernetes environment. For example, you need to manage OS upgrades and the Kubernetes installation and upgrades. You also manage the hardware configuration of the host machines, such as networking, memory, and storage.
 
 Cloud services, such Azure Kubernetes Service (AKS), reduce these challenges by providing a hosted Kubernetes environment. These services also simplify the deployment and management of containerized apps in Azure. With AKS, you get the benefits of open-source Kubernetes without the complexity or operational overhead of running your own custom Kubernetes cluster.
 

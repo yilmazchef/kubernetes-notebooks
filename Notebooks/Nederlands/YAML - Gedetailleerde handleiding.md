@@ -8,12 +8,11 @@ author:
 # YAML - Beknopte handleiding
 
 > ## Excerpt
+
 > YAML - Quick Guide,  YAML Ain't Markup Language is a data serialization language that matches userâs expectations about data. It designed to be human friendly and works perfect
 
 ---
 ___
-
-  
 
 ## YAML - Inleiding
 
@@ -75,18 +74,17 @@ Wanneer u dit in YAML laadt, worden de waarden opgenomen in een arraygegevensstr
 
 YAML bevat een opmaaktaal met een belangrijke constructie, om gegevensgeoriënteerde taal te onderscheiden van de documentopmaak. De ontwerpdoelen en kenmerken van YAML worden hieronder gegeven −
 
--   Komt overeen met native datastructuren van agile methodologie en zijn talen zoals Perl, Python, PHP, Ruby en JavaScript
-    
--   YAML-gegevens zijn overdraagbaar tussen programmeertalen
-    
--   Bevat gegevensconsistent gegevensmodel
-    
--   Gemakkelijk leesbaar voor mensen
-    
--   Ondersteunt verwerking in één richting
-    
--   Eenvoudige implementatie en gebruik
-    
+- Komt overeen met native datastructuren van agile methodologie en zijn talen zoals Perl, Python, PHP, Ruby en JavaScript
+
+- YAML-gegevens zijn overdraagbaar tussen programmeertalen
+
+- Bevat gegevensconsistent gegevensmodel
+
+- Gemakkelijk leesbaar voor mensen
+
+- Ondersteunt verwerking in één richting
+
+- Eenvoudige implementatie en gebruik
 
 ## YAML - Basics
 
@@ -96,12 +94,11 @@ Now that you have an idea about YAML and its features, let us learn its basics w
 
 When you are creating a file in YAML, you should remember the following basic rules −
 
--   YAML is case sensitive
-    
--   The files should have **.yaml** as the extension
-    
--   YAML does not allow the use of tabs while creating YAML files; spaces are allowed instead
-    
+- YAML is case sensitive
+
+- The files should have **.yaml** as the extension
+
+- YAML does not allow the use of tabs while creating YAML files; spaces are allowed instead
 
 ## Basic Components of YAML File
 
@@ -152,28 +149,27 @@ women:
 
 ## Synopsis of YAML Basic Elements
 
--   The synopsis of YAML basic elements is given here: Comments in YAML begins with the (**#**) character.
-    
--   Comments must be separated from other tokens by whitespaces.
-    
--   Indentation of whitespace is used to denote structure.
-    
--   Tabs are not included as indentation for YAML files.
-    
--   List members are denoted by a leading hyphen (**\-**).
-    
--   List members are enclosed in square brackets and separated by commas.
-    
--   Associative arrays are represented using colon **( : )** in the format of key value pair. They are enclosed in curly braces **{}**.
-    
--   Multiple documents with single streams are separated with 3 hyphens (---).
-    
--   Repeated nodes in each file are initially denoted by an ampersand (**&**) and by an asterisk (**\***) mark later.
-    
--   YAML always requires colons and commas used as list separators followed by space with scalar values.
-    
--   Nodes should be labelled with an exclamation mark (**!**) or double exclamation mark (**!!**), followed by string which can be expanded into an URI or URL.
-    
+- The synopsis of YAML basic elements is given here: Comments in YAML begins with the (**#**) character.
+
+- Comments must be separated from other tokens by whitespaces.
+
+- Indentation of whitespace is used to denote structure.
+
+- Tabs are not included as indentation for YAML files.
+
+- List members are denoted by a leading hyphen (**\-**).
+
+- List members are enclosed in square brackets and separated by commas.
+
+- Associative arrays are represented using colon **( : )** in the format of key value pair. They are enclosed in curly braces **{}**.
+
+- Multiple documents with single streams are separated with 3 hyphens (---).
+
+- Repeated nodes in each file are initially denoted by an ampersand (**&**) and by an asterisk (**\***) mark later.
+
+- YAML always requires colons and commas used as list separators followed by space with scalar values.
+
+- Nodes should be labelled with an exclamation mark (**!**) or double exclamation mark (**!!**), followed by string which can be expanded into an URI or URL.
 
 ## YAML - Indentation and Separation
 
@@ -193,12 +189,11 @@ f:
       "ghi"
 ```
 
--   You should remember the following rules while working with indentation in YAML:Flow blocks must be intended with at least some spaces with surrounding current block level.
-    
--   Flow content of YAML spans multiple lines. The beginning of flow content begins with **{** or **\[**.
-    
--   Block list items include same indentation as the surrounding block level because - is considered as a part of indentation.
-    
+- You should remember the following rules while working with indentation in YAML:Flow blocks must be intended with at least some spaces with surrounding current block level.
+
+- Flow content of YAML spans multiple lines. The beginning of flow content begins with **{** or **\[**.
+
+- Block list items include same indentation as the surrounding block level because - is considered as a part of indentation.
 
 ### Example of Intended Block
 
@@ -298,14 +293,13 @@ Now that you are comfortable with the syntax and basics of YAML, let us proceed 
 
 The features of comments in YAML are given below −
 
--   A commented block is skipped during execution.
-    
--   Comments help to add description for specified code block.
-    
--   Comments must not appear inside scalars.
-    
--   YAML does not include any way to escape the hash symbol (#) so within multi-line string so there is no way to divide the comment from the raw string value.
-    
+- A commented block is skipped during execution.
+
+- Comments help to add description for specified code block.
+
+- Comments must not appear inside scalars.
+
+- YAML does not include any way to escape the hash symbol (#) so within multi-line string so there is no way to divide the comment from the raw string value.
 
 The comments within a collection are shown below −
 
@@ -693,9 +687,9 @@ For an information model, it is important to represent the application informati
 
 The diagram shown above represents a normal information model which is represented in graph format. In YAML, the representation of native data is rooted, connected and is directed graph of tagged nodes. If we mention directed graph, it includes a set of nodes with directed graph. As mentioned in the information model, YAML supports three kinds of nodes namely −
 
--   Sequences
--   Scalars
--   Mappings
+- Sequences
+- Scalars
+- Mappings
 
 The basic definitions of these representation nodes were discussed in last chapter. In this chapter, we will focus on schematic view of these terms. The following sequence diagram represents the workflow of legends with various types of tags and mapping nodes.
 
@@ -727,118 +721,118 @@ Indicator characters include a special semantics used to describe the content of
 
 | Sr.No. | Character & Functionality |
 | --- | --- |
-| 1 | 
+| 1 |
 **\_**
 
 It denotes a block sequence entry
 
  |
-| 2 | 
+| 2 |
 
 **?**
 
 It denotes a mapping key
 
  |
-| 3 | 
+| 3 |
 
 **:**
 
 It denotes a mapping value
 
  |
-| 4 | 
+| 4 |
 
 **,**
 
 It denotes flow collection entry
 
  |
-| 5 | 
+| 5 |
 
 **\[**
 
 It starts a flow sequence
 
  |
-| 6 | 
+| 6 |
 
 **\]**
 
 It ends a flow sequence
 
  |
-| 7 | 
+| 7 |
 
 **{**
 
 It starts a flow mapping
 
  |
-| 8 | 
+| 8 |
 
 **}**
 
 It ends a flow mapping
 
  |
-| 9 | 
+| 9 |
 
 **#**
 
 It denotes the comments
 
  |
-| 10 | 
+| 10 |
 
 **&**
 
 It denotes node’s anchor property
 
  |
-| 11 | 
+| 11 |
 
 **\***
 
 It denotes alias node
 
  |
-| 12 | 
+| 12 |
 
 **!**
 
 It denotes node’s tag
 
  |
-| 13 | 
+| 13 |
 
 **|**
 
 It denotes a literal block scalar
 
  |
-| 14 | 
+| 14 |
 
 **\>**
 
 It denotes a folded block scalar
 
  |
-| 15 | 
+| 15 |
 
 **\`**
 
 Single quote surrounds a quoted flow scalar
 
  |
-| 16 | 
+| 16 |
 
 **"**
 
 Double quote surrounds double quoted flow scalar
 
  |
-| 17 | 
+| 17 |
 
 **%**
 
@@ -879,11 +873,11 @@ The following example shows the characters used in syntax −
 
 In this chapter you will learn about the following aspects of syntax primitives in YAML −
 
--   Production parameters
--   Indentation Spaces
--   Separation Spaces
--   Ignored Line Prefix
--   Line folding
+- Production parameters
+- Indentation Spaces
+- Separation Spaces
+- Ignored Line Prefix
+- Line folding
 
 Let us understand each aspect in detail.
 
@@ -1034,10 +1028,10 @@ You can see the output for line folding in JSON format as follows −
 
 In YAML, you come across various character streams as follows −
 
--   Directives
--   Document Boundary Markers
--   Documents
--   Complete Stream
+- Directives
+- Document Boundary Markers
+- Documents
+- Complete Stream
 
 In this chapter, we will discuss them in detail.
 
@@ -1319,11 +1313,11 @@ The corresponding JSON output for the same is mentioned below −
 
 Flow styles in YAML can be thought of as a natural extension of JSON to cover the folding content lines for better readable feature which uses anchors and aliases to create the object instances. In this chapter, we will focus on flow representation of the following concepts −
 
--   Alias Nodes
--   Empty Nodes
--   Flow Scalar styles
--   Flow collection styles
--   Flow nodes
+- Alias Nodes
+- Empty Nodes
+- Flow Scalar styles
+- Flow collection styles
+- Flow nodes
 
 The example of alias nodes is shown below −
 
